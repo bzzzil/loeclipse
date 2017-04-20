@@ -666,7 +666,7 @@ public class UnoidlProject implements IUnoidlProject, IProjectNature {
      */
     @Override
     public void saveAllProperties() {
-
+        // TODO
         if (mLanguage == null || mOOo == null || mSdk == null) {
             PluginLogger.warning(Messages.getString("UnoidlProject.InconsistentConfigurationError")); //$NON-NLS-1$
             return;
